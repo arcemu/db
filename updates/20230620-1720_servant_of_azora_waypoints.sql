@@ -1,6 +1,6 @@
 SET @ID := 14502;
 
-UPDATE `creature_spawns` SET `position_x` = -9554.81, `position_y` = -706.766, `position_z` = 90.4123, `orientation` = 2.72909 WHERE `id` = @ID;
+UPDATE `creature_spawns` SET `position_x` = -9548.12, `position_y` = -726.317, `position_z` = 90.4266, `orientation` = 2.72909 WHERE `id` = @ID;
 
 UPDATE `creature_spawns` SET `movetype` = 2 WHERE `id` = @ID;
 
