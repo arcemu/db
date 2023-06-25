@@ -1,0 +1,1 @@
+UPDATE `ai_agents` SET `cooldown_overwrite` = 18000 WHERE `entry` = 3183 AND `spell` = 348;
