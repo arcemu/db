@@ -1,0 +1,1 @@
+UPDATE `creature_spawns` SET `bytes2` = 0 WHERE `id` = 1105;
