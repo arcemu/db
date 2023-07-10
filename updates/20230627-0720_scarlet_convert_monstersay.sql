@@ -1,0 +1,3 @@
+-- 'Scarlet Convert' onCombat monstersay
+REPLACE INTO npc_monstersay (`entry`, `event`, `chance`, `language`, `type`, `monstername`, `text0`, `text1`, `text2`, `text3`, `text4`) 
+VALUES (1506, 0, 25, 7, 12, 'Scarlet Convert', 'You carry the taint of the Scourge.  Prepare to enter the Twisting Nether.', 'There is no escape for you.  The Crusade shall destroy all who carry the Scourge\'s taint.', 'The Light condemns all who harbor evil.  Now you will die!', 'The Scarlet Crusade shall smite the wicked and drive evil from these lands!', NULL);
