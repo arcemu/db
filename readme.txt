@@ -27,4 +27,4 @@ ArcEmu db update in the world database's world_db_version table.
 ArcEmu Git: https://github.com/arcemu/arcemu
 ArcEmu database Git: https://github.com/arcemu/db
 -----------------------------------------------------------------------------
- 
+-test
