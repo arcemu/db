@@ -1,0 +1,1 @@
+DROP TABLE creature_waypoints_full;
