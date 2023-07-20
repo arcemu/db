@@ -1,0 +1,11 @@
+-- Ogrims Hammer
+DELETE FROM creature_spawns WHERE entry IN ( 30749, 30649, 30690, 30342, 29795, 30752, 30753, 30754, 30755 );
+DELETE FROM creature_spawns WHERE entry IN ( 30824, 30825, 30826, 30827, 30866, 31243, 31261, 32301, 30649 );
+DELETE FROM creature_spawns WHERE entry IN ( 30699, 30700, 30707, 31353, 30588, 30589, 30749 );
+
+DELETE FROM creature_waypoints WHERE spawnid = 125137;
+
+DELETE FROM creature_waypoints WHERE spawnid BETWEEN 125788 AND 125809;
+DELETE FROM creature_waypoints WHERE spawnid BETWEEN 125814 AND 125834;
+DELETE FROM creature_waypoints WHERE spawnid BETWEEN 126209 AND 126212;
+DELETE FROM creature_waypoints WHERE spawnid BETWEEN 127517 AND 127519;
