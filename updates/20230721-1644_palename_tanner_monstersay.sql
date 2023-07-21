@@ -1,0 +1,2 @@
+REPLACE INTO npc_monstersay (`entry`, `event`, `chance`, `language`, `type`, `monstername`, `text0`, `text1`, `text2`, `text3`, `text4`) 
+VALUES (2949, 0, 30, 0, 12, 'Palemane Tanner', 'More bones to gnaw on...', 'Grrrr... fresh meat!', NULL, NULL, NULL);
