@@ -1,0 +1,2 @@
+REPLACE INTO npc_monstersay (`entry`, `event`, `chance`, `language`, `type`, `monstername`, `text0`, `text1`, `text2`, `text3`, `text4`) 
+VALUES (3937, 1, 10, 7, 12, 'Kira Songshine', 'Fresh bread for sale!', 'Fresh bread, baked this very morning.', 'Come get your fresh bread!', NULL, NULL);
