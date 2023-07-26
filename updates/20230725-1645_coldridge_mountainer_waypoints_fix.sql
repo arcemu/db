@@ -5,7 +5,6 @@ UPDATE creature_spawns SET position_x = -6264, position_y = 233.732, position_z 
 
 DELETE FROM creature_waypoints WHERE spawnid = @ID;
 
-
 INSERT INTO creature_waypoints (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@ID, 1, -6259.18, 243.088, 391.955, 0, 0, 0, 0, 0, 0, 0, 0);
 INSERT INTO creature_waypoints (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@ID, 2, -6256.84, 254.312, 388.483, 0, 0, 0, 0, 0, 0, 0, 0);
 INSERT INTO creature_waypoints (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@ID, 3, -6253.5, 270.312, 385.543, 0, 0, 0, 0, 0, 0, 0, 0);
