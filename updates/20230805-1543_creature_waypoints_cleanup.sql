@@ -1,0 +1,1 @@
+DELETE FROM creature_waypoints WHERE spawnid NOT IN ( SELECT id FROM creature_spawns );
