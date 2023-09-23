@@ -1,6 +1,6 @@
 SET @SPAWNID := 133309;
 
-UPDATE creature_spawns SET position_x = 1675.71, position_y = 241.504, position_z = -62.1777, orientation = 1.81803, movetype = 2 WHERE entry = 36226;
+UPDATE creature_spawns SET position_x = 1675.71, position_y = 241.504, position_z = -62.1777, orientation = 1.81803, movetype = 2 WHERE entry = 36226 AND id = @SPAWNID;
 
 DELETE FROM creature_waypoints WHERE spawnid = @SPAWNID;
 
