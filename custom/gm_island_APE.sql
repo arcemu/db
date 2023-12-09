@@ -1,6 +1,6 @@
 -- Add a creature to test several APE features on GM Island.
 SET @ENTRY := 44000;
-SET @SPAWNID := 711264;
+SET @SPAWNID := 200631;
 
 INSERT INTO creature_names (`entry`, `name`, `subname`, `info_str`, `flags1`, `type`, `family`, `rank`, `killcredit1`, `killcredit2`, `male_displayid`, `female_displayid`, `male_displayid2`, `female_displayid2`, `unknown_float1`, `unknown_float2`, `leader`, `questitem1`, `questitem2`, `questitem3`, `questitem4`, `questitem5`, `questitem6`, `waypointid`) 
 VALUES (@ENTRY, 'APE', 'Dev Script', '', 0, 7, 0, 1, 0, 0, 27475, 0, 0, 0, 50, 1, 0, 0, 0, 0, 0, 0, 0, 0);
