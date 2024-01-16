@@ -3,11 +3,12 @@ SET @SPID := 711267;
 
 -- TODO: get all lots
 -- TODO: Create Fatcandle bag if posible
--- TODO: money
--- TODO: weapon
 
 -- Set to rare
 UPDATE creature_names SET rank = 4 WHERE entry = 62;
+
+-- Added money
+UPDATE creature_proto SET money = 300 WHERE entry = 62;
 
 -- Spawn inside Echo Ridge
 DELETE FROM `creature_spawns` WHERE `entry` = 62;
