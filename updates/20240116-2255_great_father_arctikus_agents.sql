@@ -1,4 +1,4 @@
-UPDATE creature_proto SET spell1 = 465, spell2 = 2053, spell3 = 139 WHERE entry = 1260, auras = 0;
+UPDATE creature_proto SET spell1 = 465, spell2 = 2053, spell3 = 139, auras = 0 WHERE entry = 1260;
 
 -- Cast 'Devotion Aura'
 REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
