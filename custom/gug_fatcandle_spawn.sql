@@ -1,7 +1,7 @@
 /* Gug Fatcandle was the first EF creature at WOW alpha times, it was removed by unknown reason, then it was added again at CATA */
 SET @SPID := 711267;
 
--- TODO: get all lots
+-- TODO: get all loots
 -- TODO: Create Fatcandle bag if posible
 
 -- Set to rare
