@@ -7,7 +7,7 @@ SET @SPID := 711267;
 UPDATE creature_names SET rank = 4 WHERE entry = 62;
 
 -- Added money and proto spell
-UPDATE creature_proto SET money = 300, spell = 133 WHERE entry = 62;
+UPDATE creature_proto SET money = 300, spell1 = 133 WHERE entry = 62;
 
 -- Spawn inside Echo Ridge
 DELETE FROM `creature_spawns` WHERE `entry` = 62;
