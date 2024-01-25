@@ -1,0 +1,1 @@
+UPDATE ai_agents SET targettype_overwrite = 1, cooldown_overwrite = 7000, comment = 'Edan the Howler - Cast \'Frost Breath\'' WHERE entry = 1137;
