@@ -1,0 +1,2 @@
+REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
+VALUES (1133, 4, 4, 0, 20, 0, 3151, 8, -1, -1, 0, 0, 'Starving Winter Wolf - Cast \'Crazed Hunger\'');
