@@ -1,1 +1,1 @@
-UPDATE creature_spawns SET movetype = 2 WHERE entry IN ( 9145, 9160 );
+UPDATE creature_spawns SET movetype = 2 WHERE id IN ( 9145, 9160 );
