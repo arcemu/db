@@ -1,0 +1,2 @@
+REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
+VALUES (1689, 4, 4, 0, 0, 0, 6268, 8, 1, 30000, 0, 0, 'Scarred Crag Boar');
