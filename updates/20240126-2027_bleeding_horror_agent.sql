@@ -1,0 +1,2 @@
+REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
+VALUES (1529, 4, 4, 0, 15, 0, 3322, 8, 4, 0, 0, 0, 'Bleeding Horror - Cast \'Rancid Blood (3235)\'');
