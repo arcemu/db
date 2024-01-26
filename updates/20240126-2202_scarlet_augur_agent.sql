@@ -1,0 +1,1 @@
+UPDATE ai_agents SET event = 0, spell = 9613, cooldown_overwrite = 7000, comment = 'Scarlet Augur - Cast \'Shadow Bolt\'' WHERE entry = 4284 AND spell = 12522;
