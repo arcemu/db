@@ -1,0 +1,3 @@
+REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
+VALUES (1540, 4, 4, 0, 100, 0, 7164, 10, -1, -1, 0, 0, 'Scarlet Vanguard - Cast \'Defensive Stance\'');
+UPDATE ai_agents SET targettype_overwrite = -1, comment = 'Scarlet Vanguard - Cast \'Shield Bash\'' WHERE entry = 1540 AND spell = 11972;
