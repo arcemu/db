@@ -14,4 +14,4 @@ REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `
 VALUES (4285, 4, 4, 2, 10, 0, 11642, 2, 1, 11000, 0.35, 0, 'Scarlet Disciple - Cast \'Heal\'');
 
 -- Proto spells
-UPDATE creature_proto SET spell1 = 11640, spell2 = 11642
+UPDATE creature_proto SET spell1 = 11640, spell2 = 11642 WHERE entry = 4285;
