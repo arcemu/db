@@ -1,0 +1,1 @@
+UPDATE ai_agents SET targettype_overwrite = 4 WHERE entry = 4285 AND spell = 11640 OR spell = 11642;
