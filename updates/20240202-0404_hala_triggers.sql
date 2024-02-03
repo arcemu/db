@@ -1,1 +1,0 @@
-UPDATE creature_spawns SET displayid = 11686 WHERE id IN ( 62878, 62880 );
