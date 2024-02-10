@@ -1,0 +1,2 @@
+REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
+VALUES (3114, 4, 4, 2, 20, 0, 3248, 10, 4, 8000, 0, 0, 'Razormane Battleguard - Cast \'Improved Blocking\'');
