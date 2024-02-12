@@ -1,0 +1,70 @@
+SET @SPID1 := 54705;
+SET @SPID2 := 54706;
+SET @SPID3 := 54707;
+SET @SPID4 := 54708;
+SET @SPID5 := 54709;
+
+UPDATE `creature_spawns` SET `movetype` = 2 WHERE `entry` = 11328;
+
+DELETE FROM `creature_waypoints` WHERE `spawnid` IN ( @SPID1, @SPID2, @SPID3, @SPID4, @SPID5 );
+
+-- #1
+UPDATE `creature_spawns` SET `position_x` = -9512.16, `position_y` = -1284.19, `position_z` = 44.3192, `orientation` = 2.99859 WHERE `id` = @SPID1;
+
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID1, 1, -9470.55, -1292.66, 41.00, 1000, 0, 0, 0, 0, 0, 308, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID1, 2, -9509.88, -1285.64, 43.85, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID1, 3, -9522.70, -1286.41, 43.98, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID1, 4, -9524.51, -1291.55, 44.04, 35000, 0, 0, 234, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID1, 5, -9524.51, -1291.55, 44.04, 0, 0, 0, 0, 0, 0, 89, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID1, 6, -9522.22, -1285.98, 44.00, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID1, 7, -9509.87, -1285.11, 43.95, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID1, 8, -9470.55, -1292.66, 41.00, 0, 0, 0, 0, 0, 0, 0, 0);
+
+-- #2
+UPDATE `creature_spawns` SET `position_x` = -9508.8, `position_y` = -1280.82, `position_z` = 43.8932, `orientation` = 6.00732 WHERE `id` = @SPID2;
+
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID2, 1, -9470.22, -1291.73, 40.98, 1000, 0, 0, 0, 0, 0, 308, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID2, 2, -9536.23, -1275.84, 43.48, 40000, 0, 0, 234, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID2, 3, -9536.23, -1275.84, 43.48, 0, 0, 0, 0, 0, 0, 89, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID2, 4, -9470.22, -1291.73, 40.98, 0, 0, 0, 0, 0, 0, 0, 0);
+
+-- #3
+UPDATE `creature_spawns` SET `position_x` = -9535.3, `position_y` = -1304.7, `position_z` = 44.702, `orientation` = 5.26945 WHERE `id` = @SPID3;
+
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 1, -9524.05, -1279.76, 43.47, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 2, -9505.74, -1279.16, 44.33, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 3, -9477.38, -1287.08, 41.48, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 4, -9469.84, -1290.67, 41.01, 1000, 0, 0, 0, 0, 0, 308, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 5, -9478.84, -1286.25, 41.62, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 6, -9506.54, -1278.57, 44.33, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 7, -9524.78, -1279.88, 43.39, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 8, -9533.15, -1303.27, 44.50, 40000, 0, 0, 234, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID3, 9, -9533.15, -1303.27, 44.50, 0, 0, 0, 0, 0, 0, 89, 0);
+
+-- #4
+UPDATE `creature_spawns` SET `position_x` = -9529.32, `position_y` = -1323.67, `position_z` = 45.8948, `orientation` = 2.70969 WHERE `id` = @SPID4;
+
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 1, -9514.64, -1334.13, 45.37, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 2, -9496.44, -1324.36, 41.47, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 3, -9473.55, -1302.03, 42.12, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 4, -9468.00, -1298.93, 41.80, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 5, -9466.96, -1296.67, 41.38, 1000, 0, 0, 0, 0, 0, 308, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 6, -9467.94, -1299.44, 41.92, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 7, -9475.03, -1303.94, 42.39, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 8, -9498.11, -1325.95, 41.92, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 9, -9515.02, -1333.52, 45.39, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 10, -9530.47, -1326.97, 46.44, 40000, 0, 0, 234, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID4, 11, -9530.47, -1326.97, 46.44, 0, 0, 0, 0, 0, 0, 89, 0);
+
+-- #5
+UPDATE `creature_spawns` SET `position_x` = -9485.32, `position_y` = -1313.51, `position_z` = 41.17, `orientation` = 0.755021  WHERE `id` = @SPID5;
+
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 1, -9468.69, -1298.83, 41.72, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 2, -9466.80, -1296.81, 41.42, 1000, 0, 0, 0, 0, 0, 308, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 3, -9464.62, -1298.83, 42.01, 5000, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 4, -9471.96, -1301.76, 42.16, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 5, -9485.51, -1320.41, 40.78, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 6, -9499.13, -1346.69, 45.18, 40000, 0, 0, 234, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 7, -9499.13, -1346.69, 45.18, 0, 0, 0, 0, 0, 0, 89, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 8, -9484.88, -1318.48, 40.75, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature_waypoints` (`spawnid`, `waypointid`, `position_x`, `position_y`, `position_z`, `waittime`, `flags`, `forwardemoteoneshot`, `forwardemoteid`, `backwardemoteoneshot`, `backwardemoteid`, `forwardskinid`, `backwardskinid`) VALUES (@SPID5, 9, -9473.31, -1301.68, 42.07, 0, 0, 0, 0, 0, 0, 0, 0);
