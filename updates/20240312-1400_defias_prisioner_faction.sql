@@ -1,0 +1,1 @@
+UPDATE creature_spawns SET faction = 17 WHERE entry = 1706;
