@@ -1,0 +1,2 @@
+REPLACE INTO `npc_monstersay` (`entry`, `event`, `chance`, `language`, `type`, `monstername`, `text0`, `text1`, `text2`, `text3`, `text4`) 
+VALUES (1717, 0, 50, 0, 12, 'Hamhock', 'I\'ll crush you!', 'Me smash! You die!', 'Raaaaaaaaaaaaaaaaaaaaaaaaaaaaaar!!! Me smash $R!', NULL, NULL);
