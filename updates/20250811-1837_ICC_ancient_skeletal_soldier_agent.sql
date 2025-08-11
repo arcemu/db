@@ -1,2 +1,2 @@
 REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
-VALUES (36724, 4, 4, 0, 25, 0, 71029, 7, -1, 3000, 0, 0, 'ICC: Servant of the Throne - Cast \'Glacial Blast\'');
+VALUES (37012, 4, 4, 2, 33, 0, 70964, 8, -1, 5000, 0, 0, 'ICC: Ancient Skeletal Soldier - Cast \'Shield Bash\'');
