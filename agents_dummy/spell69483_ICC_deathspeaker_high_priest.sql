@@ -1,2 +1,2 @@
 REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
-VALUES (36829, 4, 4, 0, 25, 0, 69483, 8, -1, 3000, 0, 0, 'Deathspeaker High Priest - Cast \'Dark Reckoning\'');
+VALUES (36829, 4, 4, 0, 25, 0, 69483, 8, -1, 3000, 0, 0, 'ICC: Deathspeaker High Priest - Cast \'Dark Reckoning\'');
