@@ -1,0 +1,2 @@
+REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
+VALUES (37011, 4, 4, 0, 25, 0, 70960, 10, -1, 15000, 0, 0, 'The Damned - Cast \'Bone Flurry\'');
