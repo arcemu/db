@@ -13,7 +13,7 @@ SET @SPELL4 := 0;
 SET @SPTYPE1 := 6;
 SET @SPTYPE2 := 10;
 
---Target Types:
+-- Target Types:
 SET @TTYPE1 := -1;
 SET @TTYPE2 := 4;
 
