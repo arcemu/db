@@ -1,0 +1,2 @@
+REPLACE INTO `ai_agents` (`entry`, `instance_mode`, `type`, `event`, `chance`, `maxcount`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`, `floatMisc1`, `Misc2`, `comment`) 
+VALUES (37595, 4, 4, 0, 12, 0, 70450, 10, -1, 34000, 0, 0, 'ICC: Darkfallen Blood Knight - Cast \'Blood Mirror\'');
