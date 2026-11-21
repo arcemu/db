@@ -1,0 +1,4 @@
+UPDATE creature_proto SET spell1 = 52372 WHERE entry IN (29519, 29520, 29565, 29566, 29567);
+UPDATE creature_proto SET spell2 = 52373 WHERE entry IN (29519, 29520, 29565, 29566, 29567);
+UPDATE creature_proto SET spell3 = 52374 WHERE entry IN (29519, 29520, 29565, 29566, 29567);
+UPDATE creature_proto SET spell4 = 52375 WHERE entry IN (29519, 29520, 29565, 29566, 29567);
