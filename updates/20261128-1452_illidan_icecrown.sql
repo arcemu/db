@@ -1,0 +1,1 @@
+DELETE FROM creature_spawns WHERE id = 140518;
