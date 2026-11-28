@@ -1,0 +1,2 @@
+-- DK Initiate
+UPDATE creature_spawns SET CanFly = 1 WHERE id IN (117108, 117094, 117111, 117082, 117109, 117083, 117080, 117114);
